@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mikemilla22098.guthub.io/cloud",
+  "homepage": "http://mikemilla22098.github.io/cloud",
   "name": "pace-react",
   "private": false,
   "version": "0.1.0",
@@ -10,7 +10,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
