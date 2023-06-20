@@ -34,7 +34,7 @@ const Intake = () => {
           {data.map((item, index) => (
             <tr key={index}>
               <td>{item}</td>
-              <td>{item.column2}</td>
+              
               {/* Add more cells as necessary */}
             </tr>
           ))}
